@@ -1,0 +1,2 @@
+#!/bin/sh
+timedatectl list-timezones | jq -R . | jq -s .

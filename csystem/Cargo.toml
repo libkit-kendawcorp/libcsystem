@@ -1,0 +1,10 @@
+[package]
+name = "csystem"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.47.1", features = ["full"] }
+rust-embed = "8"
+serde_json = "1.0"
+anyhow = "1.0.99"

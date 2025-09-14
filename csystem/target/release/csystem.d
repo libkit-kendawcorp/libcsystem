@@ -1,0 +1,1 @@
+/mnt/c/Users/Kendall\ D\ -\ Laptop/Documents/git/library/libcsystem/csystem/target/release/csystem: /mnt/c/Users/Kendall\ D\ -\ Laptop/Documents/git/library/libcsystem/csystem/module/timezone.list /mnt/c/Users/Kendall\ D\ -\ Laptop/Documents/git/library/libcsystem/csystem/module/timezone.set /mnt/c/Users/Kendall\ D\ -\ Laptop/Documents/git/library/libcsystem/csystem/src/main.rs
