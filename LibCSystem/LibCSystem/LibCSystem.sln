@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCSystem", "LibCSystem.csproj", "{203C91BF-4040-0186-B885-715D0F9C6670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203C91BF-4040-0186-B885-715D0F9C6670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203C91BF-4040-0186-B885-715D0F9C6670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203C91BF-4040-0186-B885-715D0F9C6670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203C91BF-4040-0186-B885-715D0F9C6670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17FC16BB-E0F9-4562-88D0-66F9BF972C61}
+	EndGlobalSection
+EndGlobal
