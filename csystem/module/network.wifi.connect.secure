@@ -1,0 +1,2 @@
+#!/bin/sh
+nmcli device wifi connect "$0" password "$1";

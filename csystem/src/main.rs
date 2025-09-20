@@ -7,7 +7,7 @@ use tokio::time::sleep;
 use tokio::process::Command;
 
 use rust_embed::RustEmbed;
-use serde_json::Value;
+use serde_json::{json, to_vec, Value};
 
 #[derive(RustEmbed)]
 #[folder = "module/"]
@@ -113,6 +113,205 @@ pub async fn task_async(
                         .arg(content)
                         .arg(zone)
                         .spawn()?;
+                }
+            }
+        }
+    }
+
+    {
+        if rjson["Module"].as_str()
+            == Some("Network")
+        {
+            if rjson["Interface"].as_str()
+                == Some("WI-Fi")
+            {
+                if rjson["Task"].as_str()
+                    == Some("List")
+                {
+                    if let Some(module)
+                        = Module::get("network.wifi.list")
+                    {
+                        let content
+                            = std::str::from_utf8(&module.data)?;
+
+                        let cmd = Command::new("sh")
+                            .arg("-c")
+                            .arg(content)
+                            .output()
+                            .await?;
+
+                        if cmd.status.success()
+                        { data = cmd.stdout; }
+                    }
+                }
+
+                if rjson["Task"].as_str()
+                    == Some("Info")
+                {
+                    if let Some(module)
+                        = Module::get("network.wifi.info")
+                    {
+                        let content
+                            = std::str::from_utf8(&module.data)?;
+
+                        let cmd = Command::new("sh")
+                            .arg("-c")
+                            .arg(content)
+                            .output()
+                            .await?;
+
+                        if cmd.status.success()
+                        { data = cmd.stdout; }
+                    }
+                }
+
+                if rjson["Task"].as_str()
+                    == Some("Connect")
+                {
+                    if rjson["Method"].as_str()
+                        == Some("Open")
+                    {
+                        if let Some(module)
+                            = Module::get("network.wifi.connect.open")
+                        {
+                            let content
+                                = std::str::from_utf8(&module.data)?;
+                            let ssid
+                                = rjson["SSID"]
+                                .as_str()
+                                .unwrap()
+                                .to_string();
+
+                            let cmd = Command::new("sh")
+                                .arg("-c")
+                                .arg(content)
+                                .arg(ssid)
+                                .output()
+                                .await?;
+
+                            let boolean: bool
+                                = cmd.status.success();
+
+                            let json: Value = json!(boolean);
+                            data = to_vec(&json)?;
+                        }
+                    }
+
+                    if rjson["Method"].as_str()
+                        == Some("Secure")
+                    {
+                        if let Some(module)
+                            = Module::get("network.wifi.connect.secure")
+                        {
+                            let content
+                                = std::str::from_utf8(&module.data)?;
+                            let ssid
+                                = rjson["SSID"]
+                                .as_str()
+                                .unwrap()
+                                .to_string();
+                            let password
+                                = rjson["Password"]
+                                .as_str()
+                                .unwrap()
+                                .to_string();
+
+                            let cmd = Command::new("sh")
+                                .arg("-c")
+                                .arg(content)
+                                .arg(ssid)
+                                .arg(password)
+                                .output()
+                                .await?;
+
+                            let boolean: bool
+                                = cmd.status.success();
+
+                            let json = json!(boolean);
+                            data = to_vec(&json)?;
+                        }
+                    }
+
+                    if rjson["Method"].as_str()
+                        == Some("Hidden")
+                    {
+                        if let Some(module)
+                            = Module::get("network.wifi.connect.hidden")
+                        {
+                            let content
+                                = std::str::from_utf8(&module.data)?;
+                            let ssid
+                                = rjson["SSID"]
+                                .as_str()
+                                .unwrap()
+                                .to_string();
+                            let password
+                                = rjson["Password"]
+                                .as_str()
+                                .unwrap()
+                                .to_string();
+
+                            let cmd = Command::new("sh")
+                                .arg("-c")
+                                .arg(content)
+                                .arg(ssid)
+                                .arg(password)
+                                .output()
+                                .await?;
+
+                            let boolean: bool
+                                = cmd.status.success();
+
+                            let json = json!(boolean);
+                            data = to_vec(&json)?;
+                        }
+                    }
+
+                    if rjson["Method"].as_str()
+                        == Some("Auth")
+                    {
+                        if let Some(module)
+                            = Module::get("network.wifi.connect.auth")
+                        {
+                            let content
+                                = std::str::from_utf8(&module.data)?;
+
+                            let cmd = Command::new("python3")
+                                .arg("-c")
+                                .arg(content)
+                                .output()
+                                .await?;
+
+                            let boolean: bool
+                                = cmd.status.success();
+
+                            let json = json!(boolean);
+                            data = to_vec(&json)?;
+                        }
+                    }
+                }
+
+                if rjson["Task"].as_str()
+                    == Some("Disconnect")
+                {
+                    if let Some(module)
+                        = Module::get("network.wifi.disconnect")
+                    {
+                        let content
+                            = std::str::from_utf8(&module.data)?;
+
+                        let cmd = Command::new("sh")
+                            .arg("-c")
+                            .arg(content)
+                            .output()
+                            .await?;
+
+                        let boolean: bool
+                            = cmd.status.success();
+
+                        let json = json!(boolean);
+                        data = to_vec(&json)?;
+                    }
                 }
             }
         }

@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\libcsystem\\LibCSystem\\LibCSystem.csproj": {}
+    "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\libcsystem\\LibCSystem\\LibCSystem.csproj": {
+    "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\libcsystem\\LibCSystem\\LibCSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj",
         "projectName": "LibCSystem",
-        "projectPath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\libcsystem\\LibCSystem\\LibCSystem.csproj",
+        "projectPath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj",
         "packagesPath": "C:\\Users\\Kendall D - Laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\libcsystem\\LibCSystem\\obj\\",
+        "outputPath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kendall D - Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -43,12 +43,12 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.4-beta1, )"
+              "version": "[13.0.4, )"
             }
           },
           "imports": [
@@ -63,11 +63,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Kendall D - Laptop\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Kendall D - Laptop\\.dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

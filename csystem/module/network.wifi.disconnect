@@ -1,0 +1,5 @@
+#!/bin/sh
+nmcli -t -f UUID,TYPE connection show \
+| while IFS=: read -r uuid type; do
+    [ "$type" = "802-11-wireless" ] && nmcli connection delete uuid "$uuid"
+  done

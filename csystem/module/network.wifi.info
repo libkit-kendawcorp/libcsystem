@@ -1,0 +1,22 @@
+#!/bin/sh
+nmcli -t --escape no -f ACTIVE,SSID,SIGNAL,SECURITY,CHAN,BSSID dev wifi \
+| awk -F: '$1=="yes"{
+  n=NF
+  bssid = $(n-5) ":" $(n-4) ":" $(n-3) ":" $(n-2) ":" $(n-1) ":" $n
+  chan  = $(n-6)
+  sec   = $(n-7)
+  sig   = $(n-8)
+  ssid = $2
+  for (i=3; i<=n-9; i++) ssid = ssid ":" $i
+  print ssid "\t" sig "\t" sec "\t" chan "\t" bssid
+}' \
+| jq -R -s -c '
+  split("\n") | map(select(length>0)) | map(split("\t")) |
+  map({
+    SSID:    .[0],
+    Signal:  (.[1] | tonumber?),
+    Security:.[2],
+    Channel: (.[3] | tonumber?),
+    BSSID:   .[4]
+  }) | (.[0] // {})
+'

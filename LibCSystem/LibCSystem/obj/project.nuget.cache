@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RPqIXw8wYjQ=",
+  "dgSpecHash": "yQuEexMbFOU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\libcsystem\\LibCSystem\\LibCSystem.csproj",
+  "projectFilePath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kendall D - Laptop\\.nuget\\packages\\newtonsoft.json\\13.0.4-beta1\\newtonsoft.json.13.0.4-beta1.nupkg.sha512"
+    "C:\\Users\\Kendall D - Laptop\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
   ],
   "logs": []
 }

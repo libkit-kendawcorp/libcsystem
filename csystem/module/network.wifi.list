@@ -1,0 +1,20 @@
+#!/bin/sh
+nmcli -t --escape no -f SSID,SIGNAL,SECURITY,CHAN,BSSID device wifi list \
+| awk '{
+  line=$0
+  if (match(line, /[0-9A-Fa-f]{2}(:[0-9A-Fa-f]{2}){5}$/)) {
+    bssid = substr(line, RSTART, RLENGTH)
+    prefix = substr(line, 1, RSTART - 2)
+    n = split(prefix, a, ":")
+    ssid = ""
+    for (i = 1; i <= n-3; i++) ssid = ssid ((i>1)?":":"") a[i]
+    signal  = a[n-2]
+    security= a[n-1]
+    channel = a[n]
+    if (length(ssid) > 0) {
+      printf("{\"SSID\":\"%s\",\"Signal\":%s,\"Security\":\"%s\",\"Channel\":%s,\"BSSID\":\"%s\"}\n",
+             ssid, signal, security, channel, bssid)
+    }
+  }
+}' \
+| jq -s .
