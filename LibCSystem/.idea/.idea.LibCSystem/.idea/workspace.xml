@@ -5,67 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0e9e033-ef62-41d5-9483-00a39e4daa0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../csystem/module/network.wifi.connect.auth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../csystem/module/network.wifi.connect.hidden" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../csystem/module/network.wifi.connect.open" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../csystem/module/network.wifi.connect.secure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../csystem/module/network.wifi.disconnect" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../csystem/module/network.wifi.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../csystem/module/network.wifi.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibCSystem/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibCSystem/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/CSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/CSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/LibCSystem.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/LibCSystem.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/LibCSystem.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/bin/Debug/net9.0/LibCSystem.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/bin/Debug/net9.0/LibCSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/bin/Debug/net9.0/LibCSystem.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/LibCSystem.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/ref/LibCSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/net9.0/refint/LibCSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/LibCSystem.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/LibCSystem.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibCSystem/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../csystem/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../csystem/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfu6cy4-0xghbia-working/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfu6cy4-0xghbia-working/dep-graph.part.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfu6cy4-0xghbia-working/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfu6cy4-0xghbia-working/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfu6cy4-0xghbia.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfxl4i0-1hwalh4-862iio69h4mqimmlkm1m2dyxs/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfxl4i0-1hwalh4-862iio69h4mqimmlkm1m2dyxs/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfxl4i0-1hwalh4-862iio69h4mqimmlkm1m2dyxs/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1ad5ilza2rqtk/s-hb3rfxl4i0-1hwalh4.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfu6c6z-0akfvc8-working/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfu6c6z-0akfvc8-working/dep-graph.part.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfu6c6z-0akfvc8-working/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfu6c6z-0akfvc8-working/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfu6c6z-0akfvc8.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfxl5aq-1l946a4-cw4ocqv2bmwkodv5smv2btk7l/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfxl5aq-1l946a4-cw4ocqv2bmwkodv5smv2btk7l/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfxl5aq-1l946a4-cw4ocqv2bmwkodv5smv2btk7l/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/debug/incremental/csystem-1pe4sdkl1uqah/s-hb3rfxl5aq-1l946a4.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/release/.fingerprint/csystem-994ec70e9955a921/dep-bin-csystem" beforeDir="false" afterPath="$PROJECT_DIR$/../csystem/target/release/.fingerprint/csystem-994ec70e9955a921/dep-bin-csystem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/release/csystem" beforeDir="false" afterPath="$PROJECT_DIR$/../csystem/target/release/csystem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/release/csystem.d" beforeDir="false" afterPath="$PROJECT_DIR$/../csystem/target/release/csystem.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/release/deps/csystem-994ec70e9955a921" beforeDir="false" afterPath="$PROJECT_DIR$/../csystem/target/release/deps/csystem-994ec70e9955a921" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../csystem/target/release/deps/csystem-994ec70e9955a921.d" beforeDir="false" afterPath="$PROJECT_DIR$/../csystem/target/release/deps/csystem-994ec70e9955a921.d" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +17,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="32vyhAtdWA3ej5BHriSHA0wBFvR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c0e9e033-ef62-41d5-9483-00a39e4daa0b" name="Changes" comment="" />
@@ -105,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758315459564</updated>
       <workItem from="1758315461059" duration="4087000" />
+      <workItem from="1759114937439" duration="734000" />
     </task>
     <servers />
   </component>
