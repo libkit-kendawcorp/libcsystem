@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0e9e033-ef62-41d5-9483-00a39e4daa0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LibCSystem/bin/Debug/netstandard2.1/LibCSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/bin/Debug/netstandard2.1/LibCSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/bin/Debug/netstandard2.1/LibCSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/bin/Debug/netstandard2.1/LibCSystem.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/Debug/netstandard2.1/LibCSystem.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/LibCSystem.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/LibCSystem.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibCSystem/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibCSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/LibCSystem/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +61,7 @@
       <updated>1758315459564</updated>
       <workItem from="1758315461059" duration="4087000" />
       <workItem from="1759114937439" duration="734000" />
+      <workItem from="1761302463585" duration="281000" />
     </task>
     <servers />
   </component>

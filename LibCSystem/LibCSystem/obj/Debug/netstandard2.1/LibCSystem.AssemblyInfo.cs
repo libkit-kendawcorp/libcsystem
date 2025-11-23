@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibCSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d9c098d1aabc95f5cbbcb6c1a9db66a0d1e7866")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d22d1ba7b9bd4e4317f08b32940ca58726b5b678")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibCSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibCSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

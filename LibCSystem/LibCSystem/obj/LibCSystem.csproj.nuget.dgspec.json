@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj": {}
+    "C:\\Users\\Kendall D - Laptop\\Documents\\git\\libkit\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj": {
+    "C:\\Users\\Kendall D - Laptop\\Documents\\git\\libkit\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\libkit\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj",
         "projectName": "LibCSystem",
-        "projectPath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj",
+        "projectPath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\libkit\\libcsystem\\LibCSystem\\LibCSystem\\LibCSystem.csproj",
         "packagesPath": "C:\\Users\\Kendall D - Laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\library\\libcsystem\\LibCSystem\\LibCSystem\\obj\\",
+        "outputPath": "C:\\Users\\Kendall D - Laptop\\Documents\\git\\libkit\\libcsystem\\LibCSystem\\LibCSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kendall D - Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
